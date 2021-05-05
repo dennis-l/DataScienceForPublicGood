@@ -1,0 +1,65 @@
+name: Build & deploy site.
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+            
+      - name: Install environment
+        run: |
+          sudo apt-get install ruby-full build-essential zlib1g-dev
+          echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+          echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+          source ~/.bashrc
+          sudo gem install jekyll bundler
+      
+      - name: Install dependencies
+        shell: bash
+        run: bundle install
+        working-directory: _website
+
+      - name: Build website
+        shell: bash
+        run: bundle exec jekyll build
+        working-directory: _website
+
+      - name: Stash the site
+        shell: bash
+        run: |
+          mv _website/build ../
+      
+      - name: Change to gh-pages branch
+        shell: bash
+        run: |
+          git fetch
+          git checkout -b gh-pages origin/gh-pages
+
+      - name: Bring the site files back
+        shell: bash
+        run: |
+          mv ../build .
+          rsync -a build/* .
+          rm -rf build
+      
+      - name: Configure git identity
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+      
+      - name: Commit updated built site
+        run: |
+          git add -A
+          git commit -m "build and deploy from _website in master branch $GITHUB_SHA"
+
+      - name: Deploy to gh-pages
+        shell: bash
+        run: git push origin gh-pages
+        

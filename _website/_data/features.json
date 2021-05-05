@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Talks",
+      "description": "Talks by real data scientists",
+      "image": "images/illustrations/undraw_Presentation.svg"
+    },
+    {
+      "title": "Exercises",
+      "description": "Hands-on exercises applying data science to public good problems",
+      "image": "images/illustrations/undraw_project_team.svg"
+    },
+    {
+      "title": "College Advice",
+      "description": "Get advice for applying to college",
+      "image": "images/illustrations/undraw_education.svg"
+    },
+    {
+      "title": "Careers",
+      "description": "Learn about careers in the science in the public good",
+      "image": "images/illustrations/undraw_interview.svg"
+    }
+  ]

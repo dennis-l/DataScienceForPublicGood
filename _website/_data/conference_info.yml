@@ -1,0 +1,17 @@
+
+# Conference Date
+conference_date       : Month Day, Year
+conference_time       : 9:00 AM - 4:00 PM Central
+conference_venue      : gather.town
+
+# Registration Deadline
+deadline              : Month Day, Year
+
+# Local Register Page
+register_button_link  : '/register/'
+
+# Link to Registration Form
+registration_form_link: '#'
+
+# Conference Information Link
+more_info_button_link : '/info/'

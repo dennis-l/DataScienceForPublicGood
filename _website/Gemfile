@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+group :jekyll_plugins do
+    gem "github-pages", "~> 214"
+    gem "jekyll"
+    gem "jekyll-github-metadata"
+    gem "jekyll-environment-variables"
+    gem "jekyll-redirect-from"
+    gem "webrick"
+end

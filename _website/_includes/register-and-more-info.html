@@ -1,0 +1,15 @@
+<div class="call">
+    <div class="call-box-top">
+          <div class="call-phone"><strong>Registration Deadline: </strong> </div>
+      <div class="call-email">
+          {{ site.data.conference_info.deadline }}
+      </div>
+    </div>
+      {% if include.show_button %}
+        <div class="call-box-bottom">
+          <a href="{{ site.data.conference_info.register_button_link | relative_url }}" class="button register_form_btn">Register</a>
+          <a href="{{ site.data.conference_info.more_info_button_link | relative_url }}" class="button">More Info</a>
+        </div>
+      {% endif %}
+  </div>
+  

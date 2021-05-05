@@ -1,0 +1,43 @@
+
+title: 'Data Science for Public Good'
+title_abbrev: 'dspg'
+baseurl: '/DataScienceForPublicGood'
+permalink: pretty
+destination: 'build'
+
+homepage:
+  show_call_box: true
+
+logo:
+  mobile: #"https://dummyimage.com/1x1/fff/aaa"
+  desktop: #"https://dummyimage.com/1x1/fff/aaa"
+  desktop_height: "36px"
+
+footer:
+  copyright_text_left: Powered by Jekyll. Based on theme <a class="zerostatic" href="https://github.com/zerostaticthemes/jekyll-serif-theme">Serif</a>.
+  copyright_text_right: © 2021 Data Science for the Public Good   
+
+
+collections:
+  services:
+    output: false
+  team:
+    output: false
+  speaker:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
