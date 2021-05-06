@@ -4,7 +4,7 @@ date: 2018-02-22T17:01:34+07:00
 layout: page
 ---
 
-### tentative as of April 21, 2021
+### tentative as of April 21, 2021, subject to finalization
 
 | ------: | :------- | --------- |
 |  9:00am |   9:30am | Greetings, Introductions, How to use gather.town   |

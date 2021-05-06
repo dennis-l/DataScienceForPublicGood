@@ -5,14 +5,35 @@ layout: page
 ---
 
 ### **What is this?**
-A free, 1-day conference designed for high-schoolers, to demonstrate how data science can further the public good. Project and activities relates to sociology, public health, environmentalism, journalism, etc.
+> A **free, 1-day conference designed for high-schoolers**, to learn about **how data science and statistics** can further the **public good**. 
 
 ### **Who is this for?**
-This event is for high school students and their parents to learn about how big data and statistics can help make the world a better place. Whether you’re a student already interested in a STEM field or are a student who wants to have a [positive impact]({{ site.baseurl }}{% link team.md %}) on the world and don’t know how: this event is for you. Whether you already know [how to program]({{ site.baseurl }}{% link team.md %}) or have never touched a computer before in your life you will leave inspired to make a difference in the world using data science. 
+> This event is for **high school students** who **like STEM (science, technology, engineering, mathematics)** and/or **want to make a positive impact on the world.**   
+Whether you **already know how to program** or have **never touched a computer before in your life**, this event is for you. 
 
 ### **What to expect?**
-- Talks by real data scientists.
-- Hands-on exercises applying data science to public good problems.
+> - An immersive 1 day workshop.
+- Guided hands-on activities applying data science to public good problems.
+- [Guest speakers (real data scientists!)]({{ site.baseurl }}{% link speakers.md %}).
+- Learn about jobs & careers.
+- [Tenative Schedule]({{ site.baseurl }}{% link schedule.md %})
+
+### **Where and When?**
+> - Date: {{ site.data.conference_info.conference_date }}, {{ site.data.conference_info.conference_time }}
+- Online via gather.town
+- Hosted virtually at Northwestern University by PhD students & researchers.
+
+### **What do you need to do?**
+> - Register by {{ site.data.conference_info.deadline }} at this [link!]({{ site.baseurl }}{% link register.md %}).
+- If you have questions, please reach out to <a href="mailto:CIERA-events@northwestern.edu"> CIERA-events@northwestern.edu</a>!
+
+<!-- 
+### **WHEN**
+- Register by: {{ site.data.conference_info.deadline }} -->
+
+
+<!-- - Talks by real data scientists.
+- Hands-on exercises 
 - Get advice for applying to college.
 - Learn about careers in the science in the public good.
 - Guided hands-on exercises in key statistics and data science topics
@@ -20,29 +41,22 @@ This event is for high school students and their parents to learn about how big 
 - Facetime with real data scientists
 - College application advice? (confirm w/ Jillian)
 - Learn about jobs & careers 
-- [Tenative Schedule]({{ site.baseurl }}{% link schedule.md %})
+- [Tenative Schedule]({{ site.baseurl }}{% link schedule.md %}) -->
 
-### **What do you need to do?**
-- Register by ____ at ____
-- Daylong conference on zoom, reach out if there are internet connectivity issues
-- If you have questions reach out to Jillian at ___ 
+
+<!-- 
+
 
 
 ### **WHO?** 
-HIGH SCHOOL STUDENTS:
-- Who like STEM (science, technology, engineering, mathematics)
-- Who want to make a positive impact on the world
+- HIGH SCHOOL STUDENTS:
+    - Who like STEM (science, technology, engineering, mathematics)
+    - Who want to make a positive impact on the world
+
 ### **WHAT?**
 - Immersive 1 day workshop
 - Engaging demonstrations
 - Guided hands-on activities
-- Guest speakers (real data scientists!)
+- [Guest speakers (real data scientists!)]({{ site.baseurl }}{% link speakers.md %})
 - Learn about jobs & careers
-### **WHERE?**
-• Online via Zoom
-• Hosted virtually at Northwestern University by PhD students & researchers
-
-### **WHEN**
-- DATE:
-- Register & Learn More:
-- Register by:
+- [Tenative Schedule]({{ site.baseurl }}{% link schedule.md %}) -->

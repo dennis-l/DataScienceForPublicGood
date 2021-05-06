@@ -1,22 +1,22 @@
 [
     {
-      "title": "Talks",
-      "description": "Talks by real data scientists",
+      "title": "Talks by Real Data Scientists!",
+      "description": "",
       "image": "images/illustrations/undraw_Presentation.svg"
     },
     {
-      "title": "Exercises",
-      "description": "Hands-on exercises applying data science to public good problems",
+      "title": "Hands-on Exercises!",
+      "description": "",
       "image": "images/illustrations/undraw_project_team.svg"
     },
     {
-      "title": "College Advice",
-      "description": "Get advice for applying to college",
+      "title": "Advice for College Applications!",
+      "description": "",
       "image": "images/illustrations/undraw_education.svg"
     },
     {
-      "title": "Careers",
-      "description": "Learn about careers in the science in the public good",
+      "title": "Discover Career Paths!",
+      "description": "",
       "image": "images/illustrations/undraw_interview.svg"
     }
   ]
