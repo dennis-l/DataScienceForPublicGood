@@ -4,4 +4,4 @@ date: 2016-02-22T17:01:34+07:00
 layout: page
 ---
 
-code of conduct goes here 
+To be updated!
