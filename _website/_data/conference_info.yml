@@ -1,11 +1,11 @@
 
 # Conference Date
-conference_date       : Month Day, Year
-conference_time       : 9:00 AM - 4:00 PM Central
+conference_date       : Friday, July 23, 2021
+conference_time       : 9:00 AM - 3:00 PM Central
 conference_venue      : gather.town
 
 # Registration Deadline
-deadline              : Month Day, Year
+deadline              : Sunday, July 18, 2021
 
 # Local Register Page
 register_button_link  : '/register/'
